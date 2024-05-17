@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=-width, initial-scale=1.0">
+	<title>Transaction</title>
+	
+</head>
+<body>
+	<h1>TRANSACTION</h1>
+	<form action="transaction.php" method="post">
+		<label for="transactionID">Transaction ID: </label><br>
+		<input type="text" id="transactionID" name="transactionID" placeholder="Enter transcation ID"><br>
+		<label for="userID">User ID: </label><br>
+		<input type="text" id="userID" name="userID" placeholder="Enter User ID"><br>
+		<label for="prodID">Product ID: </label><br>
+		<input type="text" id="prodID" name="prodID" placeholder="Enter Product ID"><br>
+		<label for="Month">Month: </label><br>
+		<input type="text" id="Month" name="Month" placeholder="Enter Month"><br>
+		<label for="Day">Day: </label><br>
+		<input type="text" id="Day" name="Day" placeholder="Enter Day"><br>
+		<label for="Yr">Year: </label><br>
+		<input type="text" id="Yr" name="Yr" placeholder="Enter Year"><br>
+		<label for="Time">Time: </label><br>
+		<input type="text" id="Time" name="Time" placeholder="Enter Time"><br>
+		<label for="TotalAmount">Total Amount: </label><br>
+		<input type="double" id="TotalAmount" name="TotalAmount" placeholder="Enter Total Amount"><br>
+		<label for="paymentMethod">Payment Method: </label><br>
+		<select id="paymentMethod" name="paymentMethod">Payment Method: 
+			<option value="default"></option>
+			<option value="COD">Cash on Delivery</option>
+			<option value="onlineBanking">Online Banking</option>
+			<option value="eWallet">E-Wallet</option>
+		</select><br><br>
+		
+		<button type="submit" id="submit_button" name="submit_button">Check Out</button>
+</body>
